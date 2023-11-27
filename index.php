@@ -50,9 +50,9 @@
                     <h3 class="subject"><?php echo $row['List'] ?></h3>
                     <div class="button-wrapper">
                         <div class="button"><a href="update-page.php? ID=<?php echo $row['ID'] ?>" class="btn btn-outline-warning"><i
-                                    class="fa-solid fa-pen-to-square"></i></a></div>
+                                    class="fa-solid fa-pen-to-square"></i>UPDATE</a></div>
                         <div class="button"><a href="delete.php? ID=<?php echo $row['ID']?>" class="btn btn-outline-danger"><i
-                                    class="fa-solid fa-trash-can"></i></a></div>
+                                    class="fa-solid fa-trash-can"></i>DELETE</a></div>
                     </div>
                 </div>
                 <?php

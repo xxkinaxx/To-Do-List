@@ -44,9 +44,26 @@ h2, h3, h4{
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
+    transition: .5s;
+}
+.box:hover{
+    scale: 1.1;
 }
 .button{
     background: transparent;
+}
+.button i{
+    margin-right: 15px;
+    font-size: 1.4em;
+}
+.button a{
+    width: 45px;
+    display: flex;
+    transition: .5s;
+    overflow: hidden;
+}
+.button  a:hover{
+    width: 130px;
 }
 .number{
     background: #353535;
